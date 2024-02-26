@@ -5,6 +5,8 @@
   font-size: 2rem;
   color: white;
   font-style: italic;
+  text-shadow: 1px 8px 10px rgb(77, 68, 68);
+
 }
 
 .card_phrase::after {
