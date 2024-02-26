@@ -10,7 +10,7 @@
 }
 
 .app_title {
-   max-width: 80%;
+  max-width: 80%;
   font-weight: 800;
   font-size: 3rem;
   text-align: center;
@@ -21,13 +21,12 @@
   box-shadow: 0.1em 0.1em 0.9em rgb(11, 36, 134);
   transition: transform 100ms ease;
   text-shadow: 1px 8px 5px rgb(129, 119, 119);
-
 }
 
 .app_title:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 1em rgb(117, 18, 18);
-  }
+  transform: scale(1.05);
+  box-shadow: 0 0 1em rgb(117, 18, 18);
+}
 
 .app_card {
   margin: 0 2rem;
@@ -39,4 +38,10 @@
   display: grid;
   gap: 1em;
   box-shadow: 0.3em 0.3em 0.5em rgb(134, 60, 11);
+}
+
+@media (max-width: 600px) {
+  .app_title {
+    font-size: 2rem;
+  }
 }

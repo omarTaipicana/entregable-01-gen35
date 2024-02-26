@@ -14,3 +14,9 @@
 .card_phrase::before {
   content: '"';
 }
+
+@media (max-width: 600px) {
+  .card_phrase {
+    font-size: 1.5rem;
+  }
+}

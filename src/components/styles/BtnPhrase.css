@@ -16,3 +16,9 @@
   box-shadow: 0 0 1em rgb(38, 38, 38);
   background-color: #2f2a28;
 }
+
+@media (max-width: 600px) {
+  .card_btn {
+    font-size: 0.8rem;
+  }
+}
