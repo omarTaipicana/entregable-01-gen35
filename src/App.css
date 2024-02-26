@@ -1,0 +1,42 @@
+.app {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.app_title {
+   max-width: 80%;
+  font-weight: 800;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(23, 16, 16);
+  background-color: rgba(233, 233, 217, 0.55);
+  border-radius: 0.5cm;
+  padding: 1rem;
+  box-shadow: 0.1em 0.1em 0.9em rgb(11, 36, 134);
+  transition: transform 100ms ease;
+  text-shadow: 1px 8px 5px rgb(129, 119, 119);
+
+}
+
+.app_title:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1em rgb(117, 18, 18);
+  }
+
+.app_card {
+  margin: 0 2rem;
+  width: 80%;
+  max-width: 500px;
+  background-color: rgb(41, 170, 56);
+  padding: 1em 2em;
+  border-radius: 0.7cm;
+  display: grid;
+  gap: 1em;
+  box-shadow: 0.3em 0.3em 0.5em rgb(134, 60, 11);
+}
